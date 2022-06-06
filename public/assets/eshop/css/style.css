@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;1,400&display=swap');
+
+
+
+*,
+*::before,
+*::after{
+    margin :0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+ul,li{
+    list-style: none;
+}
+p{
+    color: black;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+img{
+    max-width: 100%;
+}
+
+
+
+.promo{
+    background-color:hotpink;
+    text-align:center;
+    color:black;
+    padding: 0.5rem; 
+}
+
+body{
+            margin:0px;
+            padding: 0px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.6rem; 
+            color:black;
+            background-color:bisque;
+        }
+
+nav{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #fff;
+            position: sticky;
+            top: 0;
+        }
+
+nav h1{
+            font-size: 30px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            
+            position:relative;
+        }
+img{
+    float:left;
+        }
+
+  nav .onglets{
+            display: flex;
+            flex-wrap:wrap;
+        }
+
+  nav .onglets p{
+            font-size: 17px;
+            margin-right: 10px;
+            cursor:pointer;
+        }
+
+  nav .onglets input{
+            margin: 8px 20px;
+            padding: 15px;
+            border-radius: 30px;
+            border:none;
+            background-color: #f2f2f2;
+            outline:none;
+        }
+
+  header{
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+         }
+  header h1{
+            font-size: 50px;
+            max-width: 500px;
+            text-align:center;
+        }
+  header button{
+            padding: 15px 20px;
+            font-size: 20px;
+            border:none;
+            border-radius: 5px;
+            outline:none;
+            cursor:pointer;
+        }
+.container{
+    max-width: 114rem;
+    padding: 0 auto;
+}
+@media only screen and (max-width: 1200){
+    .container{
+        padding: 0 3rem;
+
+    }
+}
+.navigation{
+    height: 7rem;
+    justify-content: space-between;
+
+}
+
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.icon1{
+    display:none ;
+
+}
+.menu .top{
+display: none;
+}
+span{
+font-size: 3rem;
+color:coral;
+text-shadow: 2px 2px;
+}
+.promo span{
+    color:black;
+}
+
+#logo{
+    width:90px; 
+    height:90px;
+}
+
+
