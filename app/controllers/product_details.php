@@ -16,8 +16,7 @@ Class Product_details extends Controller
 
 		$DB = Database::newInstance();
 
-		$ROW = $DB->read("select * from products where slag = :slag",['slag'=>$slag]);
-
+		$ROW = $DB->read("select * from products ");
 		$data['page_title'] = "Product Details";
 		$data['ROW'] = is_array($ROW) ? $ROW[0] : false;
 

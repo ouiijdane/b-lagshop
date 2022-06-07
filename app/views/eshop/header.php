@@ -37,8 +37,8 @@
       </div>
       
           <div class="onglets">
-          <p class="link" ><strong>ACCEUIL</strong></p>
-          <p class="link"> <a href="<?=ROOT?>visage">Visage</a></p>
+          <p class="link" ><strong><a href="<?=ROOT?>">ACCUEIL</a></strong></p>
+          <p class="link"> <a href="<?=ROOT?>product.inc">Visage</a></p>
           <p class="link"><a href="<?=ROOT?>cheveux">Cheveux</a></p>
           <p class="link"><a href="<?=ROOT?>corps">Corps</a></p>
           <p class="link"><a href="<?=ROOT?>parfums">Parfums</a></p>

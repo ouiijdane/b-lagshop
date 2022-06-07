@@ -350,17 +350,13 @@ ul.sub-menu {
 }
 
 
-.footer-top .container {
-  border-bottom: 1px solid #E0E0DA;
-  padding-bottom: 20px;
-}
 
 .companyinfo {
   margin-top: 57px;
 }
 
 .companyinfo h2 {
-  color: #B4B1AB;
+  color:antiquewhite;
   font-family: abel;
   font-size: 27px;
   text-transform: uppercase;
@@ -377,94 +373,6 @@ ul.sub-menu {
   font-weight: 300;
 }
 
-.footer-top .col-sm-3{
-  overflow: hidden;
-}
-
-.video-gallery {
-  margin-top: 57px;
-  position: inherit;
-}
-
-.video-gallery a img {
-  height: 100%;
-  width: 100%;
-}
-
-.iframe-img {
-  position: relative;
-  display: block;
-  height: 61px;
-  margin-bottom: 10px;
-  border: 2px solid #CCCCC6;
-  border-radius: 3px;
-}
-
-.overlay-icon {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 61px;
-  background: #FE980F;
-  border-radius: 3px;
-  color: #FFF;
-  font-size: 20px;
-  line-height: 0;
-  display: block;
-  opacity: 0;
-   -webkit-transition: 300ms;
-  -moz-transition: 300ms;
-    -o-transition: 300ms;
-    transition: 300ms;
-}
-
-.overlay-icon i {
-  position: relative;
-  top: 50%;
-  margin-top: -20px;
-}
-
-.video-gallery a:hover .overlay-icon{
-  opacity: 1;
-}
-
-.video-gallery p {
-  color: #8C8C88;
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  margin-bottom:0px;
-}
-
-.video-gallery  h2 {
-  color: #8c8c88;
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  text-transform:uppercase;
-  margin-top:0px;
-}
-
-
-.address {
-  margin-top: 30px;
-  position: relative;
-  overflow: hidden;
-}
-.address  img {
-	width:100%;
-}
-
-.address p {
-  color: #666663;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  left: 25px;
-  position: absolute;
-  top: 50px;
-}
-
 .footer-widget {
   margin-bottom: 68px;
 }
@@ -475,7 +383,7 @@ ul.sub-menu {
 }
 
 .single-widget h2 {
-  color: #666663;
+  color:deeppink;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -483,26 +391,19 @@ ul.sub-menu {
   text-transform: uppercase;
 }
 
+.single-widget p {
+  color:deeppink;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 22px;
+  text-transform:lowercase;
+}
+
 .single-widget h2 i{
 	margin-right:15px;
 }
 
-.single-widget ul li a{
-	color: #8C8C88;
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-	padding: 5px 0;
-}
-
-.single-widget ul li a i {
-  margin-right: 18px;
-}
-
-.single-widget ul li a:hover{
-	background:none;
-	color:#FE980F;
-}
 
 
 .searchform input {

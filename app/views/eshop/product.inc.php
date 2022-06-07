@@ -4,7 +4,7 @@
 		<div class="single-products">
 				<div class="productinfo text-center">
 					<a href="<?=ROOT?>product_details/<?=$data->slag?>">
-					<div style="overflow: hidden;"><img class="product-image" src="<?= ROOT . $data->image?>" alt="" /></div>
+					<div style="overflow: hidden;"><img class="product-image" src="<?= ROOT . $data->image?>" alt="NOT FOUND" /></div>
 					</a>
 					<h2>$<?=$data->price?></h2>
 					<p><?=$data->description?></p>

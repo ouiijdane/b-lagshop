@@ -16,9 +16,10 @@
 						<?php endforeach; ?>
 						<?php endif; ?>
 
-					</div><!--features_items-->
+					</div>
+					<!--features_items-->
 					
-					<div class="category-tab"><!--category-tab-->
+					<!-- <div class="category-tab">
 						<div class="col-sm-12">
 							<ul class="nav nav-tabs">
 								<li class="active"><a href="#tshirt" data-toggle="tab">T-Shirt</a></li>
@@ -27,7 +28,7 @@
 								<li><a href="#kids" data-toggle="tab">Kids</a></li>
 								<li><a href="#poloshirt" data-toggle="tab">Polo shirt</a></li>
 							</ul>
-						</div>
+						</div> -->
 						<div class="tab-content">
 							<div class="tab-pane fade active in" id="tshirt" >
 								<div class="col-sm-3">

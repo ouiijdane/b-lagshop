@@ -82,10 +82,10 @@ class Image
 			}
 		}
 
-		$new_image = imagecreatetruecolor($new_width, $new_height);
-		imagecopyresampled($new_image, $original_image, 0, 0, 0, 0, $new_width, $new_height, $original_width, $original_height);
+		//$new_image = imagecreatetruecolor($new_width, $new_height);
+		//imagecopyresampled($new_image, $original_image, 0, 0, 0, 0, $new_width, $new_height, $original_width, $original_height);
 
-		imagedestroy($original_image);
+		//imagedestroy($original_image);
 
 		if($max_width != $max_height)
 		{
@@ -109,29 +109,30 @@ class Image
 				$x = round($diff / 2);
 				$y = 0;
 			}
-		}else
-		{
-			if($new_height > $new_width)
-			{
-
-				$diff = ($new_height - $new_width);
-				$y = round($diff / 2);
-				$x = 0;
-			}else
-			{
-
-				$diff = ($new_width - $new_height);
-				$x = round($diff / 2);
-				$y = 0;
-			}
 		}
+		//else
+		//{
+		//	if($new_height > $new_width)
+			//{
+
+			//	$diff = ($new_height - $new_width);
+				//$y = round($diff / 2);
+				//$x = 0;
+			//}else
+			//{
+
+			//	$diff = ($new_width - $new_height);
+				//$x = round($diff / 2);
+				//$y = 0;
+			//}
+		//}
 
 		$new_cropped_image = imagecreatetruecolor($max_width, $max_height);
-		imagecopyresampled($new_cropped_image, $new_image, 0, 0, $x, $y, $max_width, $max_height, $max_width, $max_height);
+	//	imagecopyresampled($new_cropped_image, $new_image, 0, 0, $x, $y, $max_width, $max_height, $max_width, $max_height);
 		
-		imagedestroy($new_image);
+		//imagedestroy($new_image);
 
-		imagejpeg($new_cropped_image,$cropped_file_name,90);
+		//imagejpeg($new_cropped_image,$cropped_file_name,90);
 		imagedestroy($new_cropped_image);
 	}
 
